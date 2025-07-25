@@ -7,7 +7,7 @@ class Appsize < Formula
 
   # depends_on "cmake" => :build
   def install
-    bin.install "JDAPPAnalyzeCommand" => appSize
+    bin.install "JDAPPAnalyzeCommand"
   end
 
   test do
