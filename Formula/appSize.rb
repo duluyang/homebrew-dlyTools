@@ -6,8 +6,6 @@ class OtfccMac64 < Formula
   sha256 "f4906dbb06d408f5c8b0ba906e5b3d4b12df54bed66668c4df69a28b1a5cea41"
 
   # depends_on "cmake" => :build
-  depends_on :x11 # if your formula requires any X11/XQuartz components
-
   def install
     bin.install "appSize"
   end
