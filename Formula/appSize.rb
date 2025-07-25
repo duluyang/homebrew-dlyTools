@@ -1,4 +1,4 @@
-class OtfccMac64 < Formula
+class Appsize < Formula
   desc ""
   homepage ""
   url "https://github.com/duluyang/appSize/releases/download/1.0.0/JDAPPAnalyzeCommand.zip"
@@ -7,7 +7,7 @@ class OtfccMac64 < Formula
 
   # depends_on "cmake" => :build
   def install
-    bin.install "appSize"
+    bin.install "JDAPPAnalyzeCommand" => appSize
   end
 
   test do
